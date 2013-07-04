@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GeoIP_Lite</id>
+    <version>1.18.0</version>
+    <title>GeoIP-Lite</title>
+    <authors>aschrock</authors>
+    <owners></owners>
+    <description>
+      This library exposes the GeoIP API to access the databases from here: http://dev.maxmind.com/geoip/legacy/geolite/. Code and additional information related to this project is available on Github at http://github.com/arleyschrock/geoip-api-csharp2 
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      GeoIP database API - see http://dev.maxmind.com/geoip/legacy/geolite/
+    </summary>
+    <language>en-US</language>
+    <projectUrl>http://github.com/arleyschrock/geoip-api-csharp2</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2013</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="..\GeoIP\bin\Release\GeoIP.dll" target="lib\net40"/>
+    <file src="..\GeoIP\bin\Release\GeoIP.pdb" target="lib\net40"/>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

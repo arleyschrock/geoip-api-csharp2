@@ -1,3 +1,10 @@
+GeoIP .NET Api 1.18
+===================
+
+This project provides a .NET assembly and organizes the code in Visual Studio solution/projects. The built library is available on Nuget https://nuget.org/packages/GeoIP_Lite/
+
+The following is from the original readme file and provides some mono specific details.
+
 GeoIP C# API 1.18
 ================
 

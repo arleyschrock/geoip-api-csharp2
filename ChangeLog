@@ -1,3 +1,6 @@
+
+Added all GeoIP components to the GeoIP namespace
+
 1.18	Feb 20th, 2013
 	- Add South Sudan ( Boris Zentner )
 	- Update FIPS codes ( Boris Zentner )
