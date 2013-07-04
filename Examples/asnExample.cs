@@ -1,6 +1,8 @@
 //an example of how to lookup the isp or org of a ip address
 using System;
 using System.IO;
+using GeoIP;
+
 class Appa0{
   public static void Main(String[] args){
     //open the database
