@@ -1,22 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.20617.1 PREVIEW
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIP", "GeoIP.csproj", "{329106D8-2B13-42EA-9ACF-D8CCD209AB32}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIP", "GeoIP\GeoIP.csproj", "{329106D8-2B13-42EA-9ACF-D8CCD209AB32}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{81CE8C7E-2D49-4ED2-80B3-3DC82FF560B5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{51FDBBD2-2705-4BFD-9F26-8644EB8EA15E}"
 	ProjectSection(SolutionItems) = preProject
-		asnExample.cs = asnExample.cs
-		asnV6Example.cs = asnV6Example.cs
-		cityExample.cs = cityExample.cs
-		cityV6Example.cs = cityV6Example.cs
-		countryExample.cs = countryExample.cs
-		countryV6Example.cs = countryV6Example.cs
-		domainExample.cs = domainExample.cs
-		netspeedExample.cs = netspeedExample.cs
-		orgExample.cs = orgExample.cs
-		regionExample.cs = regionExample.cs
+		ChangeLog = ChangeLog
+		README = README
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{C1C28916-0BE2-4E75-812B-1848C8296E2A}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\asnExample.cs = Examples\asnExample.cs
+		Examples\asnV6Example.cs = Examples\asnV6Example.cs
+		Examples\cityExample.cs = Examples\cityExample.cs
+		Examples\cityV6Example.cs = Examples\cityV6Example.cs
+		Examples\countryExample.cs = Examples\countryExample.cs
+		Examples\countryV6Example.cs = Examples\countryV6Example.cs
+		Examples\domainExample.cs = Examples\domainExample.cs
+		Examples\netspeedExample.cs = Examples\netspeedExample.cs
+		Examples\orgExample.cs = Examples\orgExample.cs
+		Examples\regionExample.cs = Examples\regionExample.cs
 	EndProjectSection
 EndProject
 Global
